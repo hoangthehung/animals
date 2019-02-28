@@ -1,6 +1,6 @@
 package com.hunghoang.animals.models.bird;
 
-import com.hunghoang.animals.action.impl.CanSwim;
+import com.hunghoang.animals.action.impl.swim.CanSwim;
 import com.hunghoang.animals.action.impl.sing.DuckSound;
 
 public class Duck extends Bird {

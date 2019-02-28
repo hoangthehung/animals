@@ -1,7 +1,6 @@
 package com.hunghoang.animals.models.fish;
 
-import com.hunghoang.animals.action.impl.CanSwim;
-import com.hunghoang.animals.action.impl.fly.CanNotFly;
+import com.hunghoang.animals.action.impl.swim.CanSwim;
 import com.hunghoang.animals.action.impl.sing.CanNotSing;
 import com.hunghoang.animals.action.impl.walk.CanNotWalk;
 import com.hunghoang.animals.models.Kind;

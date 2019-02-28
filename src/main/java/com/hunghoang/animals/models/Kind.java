@@ -28,4 +28,12 @@ public abstract class Kind {
     public ActionSing getActionSing() {
         return actionSing;
     }
+
+    public ActionWalk getActionWalk() {
+        return actionWalk;
+    }
+
+    public ActionFly getActionFly() {
+        return actionFly;
+    }
 }
