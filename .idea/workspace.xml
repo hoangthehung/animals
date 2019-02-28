@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2a40626-2885-4990-a910-7a4d52ca04a4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/animal/Frog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/util/CounterAnimal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hunghoang/animals/CounterAnimalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lang_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lang_fr.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hunghoang/animals/LanguageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/impl/swim/GoodSwim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/impl/swim/GoodSwim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/Kind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/Kind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/ActionSing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/ActionSing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/impl/sing/RoosterSound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/impl/sing/RoosterSound.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,105 +20,113 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CounterAnimal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hunghoang/animals/util/CounterAnimal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="19" column="111" selection-start-line="19" selection-start-column="111" selection-end-line="19" selection-end-column="111" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CounterAnimalTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CounterAnimalTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/hunghoang/animals/CounterAnimalTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
+            <state relative-caret-position="207">
               <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-15">
-              <caret line="1248" selection-start-line="1248" selection-end-line="1248" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hunghoang/animals/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Duck.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/bird/Duck.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Clownfish.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/fish/Clownfish.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-              <folding>
-                <element signature="e#400#401#0" expanded="true" />
-                <element signature="e#450#451#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dolphins.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/fish/Dolphins.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodSwim.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/impl/swim/GoodSwim.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rooster.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/bird/Rooster.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Frog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/animal/Frog.java">
+      <file leaf-file-name="ActionSing.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/ActionSing.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LanguageTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/hunghoang/animals/LanguageTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#860#861#0" expanded="true" />
+                <element signature="e#908#909#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoosterSound.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/impl/sing/RoosterSound.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#130#131#0" expanded="true" />
+                <element signature="e#166#167#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoosterTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/hunghoang/animals/RoosterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="14" column="84" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="84" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChickenTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/hunghoang/animals/ChickenTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="22" column="81" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ParrotTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/hunghoang/animals/ParrotTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="37" column="31" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FishTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/hunghoang/animals/FishTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="32" column="81" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="32" selection-end-column="81" />
+              <folding>
+                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#375#376#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lang_fr.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/lang_fr.properties">
+          <provider editor-type-id="ResourceBundle" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lang_en.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/lang_en.properties">
+          <provider editor-type-id="ResourceBundle" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="31" selection-start-column="31" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -141,14 +148,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/hunghoang/animals/ChickenTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/impl/ChickenSound.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/impl/fly/CanNotFly.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/bird/Chicken.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/impl/sing/RoosterSound.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/Bird.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/bird/Rooster.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/hunghoang/animals/RoosterTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/impl/sing/DogSound.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/impl/sing/CatSound.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/animal/Dog.java" />
@@ -192,6 +192,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/Solution.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/impl/swim/GoodSwim.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/hunghoang/animals/CounterAnimalTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/lang_vi.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/ActionSing.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/impl/sing/RoosterSound.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/lang_en.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/lang_fr.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hunghoang/animals/RoosterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hunghoang/animals/LanguageTest.java" />
       </list>
     </option>
   </component>
@@ -297,6 +304,17 @@
               <item name="animals" type="462c0819:PsiDirectoryNode" />
               <item name="action" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="sing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="animals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="animals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="animals" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
               <item name="walk" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -361,6 +379,21 @@
               <item name="animals" type="b2602c69:ProjectViewProjectNode" />
               <item name="animals" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="animals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="animals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Resource Bundle 'lang'" type="a6c14932:ResourceBundleNode" />
+            </path>
+            <path>
+              <item name="animals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="animals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -392,20 +425,21 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.44827586" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.hunghoang.animals.models.animal" />
       <recent name="com.hunghoang.animals" />
+      <recent name="com.hunghoang.animals.models.animal" />
       <recent name="com.hunghoang.animals.action.impl.walk" />
       <recent name="com.hunghoang.animals.models.insect" />
       <recent name="com.hunghoang.animals.action.impl.sing" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -421,32 +455,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CounterAnimalTest">
+  <component name="RunManager" selected="JUnit.com.hunghoang.animals in animals">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="ButterflyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="animals" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hunghoang.animals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.hunghoang.animals" />
-      <option name="MAIN_CLASS_NAME" value="com.hunghoang.animals.ButterflyTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="CaterpillarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="animals" />
@@ -494,7 +505,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DolphinsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LanguageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="animals" />
       <extension name="coverage">
         <pattern>
@@ -505,7 +516,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.hunghoang.animals" />
-      <option name="MAIN_CLASS_NAME" value="com.hunghoang.animals.DolphinsTest" />
+      <option name="MAIN_CLASS_NAME" value="com.hunghoang.animals.LanguageTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -517,7 +528,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SharkTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RoosterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="animals" />
       <extension name="coverage">
         <pattern>
@@ -528,7 +539,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.hunghoang.animals" />
-      <option name="MAIN_CLASS_NAME" value="com.hunghoang.animals.SharkTest" />
+      <option name="MAIN_CLASS_NAME" value="com.hunghoang.animals.RoosterTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -547,6 +558,29 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="com.hunghoang.animals in animals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="animals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hunghoang.animals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.hunghoang.animals" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -579,19 +613,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.SharkTest" />
-      <item itemvalue="JUnit.DolphinsTest" />
-      <item itemvalue="JUnit.ButterflyTest" />
       <item itemvalue="JUnit.CaterpillarTest" />
       <item itemvalue="JUnit.CounterAnimalTest" />
+      <item itemvalue="JUnit.LanguageTest" />
+      <item itemvalue="JUnit.RoosterTest" />
+      <item itemvalue="JUnit.com.hunghoang.animals in animals" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.com.hunghoang.animals in animals" />
+        <item itemvalue="JUnit.LanguageTest" />
+        <item itemvalue="JUnit.RoosterTest" />
         <item itemvalue="JUnit.CounterAnimalTest" />
         <item itemvalue="JUnit.CaterpillarTest" />
-        <item itemvalue="JUnit.ButterflyTest" />
-        <item itemvalue="JUnit.DolphinsTest" />
-        <item itemvalue="JUnit.SharkTest" />
       </list>
     </recent_temporary>
   </component>
@@ -605,44 +639,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551363560376</updated>
-      <workItem from="1551363564016" duration="10290000" />
+      <workItem from="1551363564016" duration="12346000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CaterpillarTest - 2019.02.28 at 23h 42m 53s.xml">
-      <configuration name="CaterpillarTest" configurationId="JUnit" />
+    <history-entry file="RoosterTest - 2019.03.01 at 00h 35m 21s.xml">
+      <configuration name="RoosterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CaterpillarTest - 2019.02.28 at 23h 44m 05s.xml">
-      <configuration name="CaterpillarTest" configurationId="JUnit" />
+    <history-entry file="LanguageTest - 2019.03.01 at 00h 37m 08s.xml">
+      <configuration name="LanguageTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CounterAnimalTest - 2019.02.28 at 23h 59m 03s.xml">
-      <configuration name="CounterAnimalTest" configurationId="JUnit" />
+    <history-entry file="LanguageTest - 2019.03.01 at 00h 37m 32s.xml">
+      <configuration name="LanguageTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CounterAnimalTest - 2019.02.28 at 23h 59m 46s.xml">
-      <configuration name="CounterAnimalTest" configurationId="JUnit" />
+    <history-entry file="RoosterTest - 2019.03.01 at 00h 39m 54s.xml">
+      <configuration name="RoosterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CounterAnimalTest - 2019.03.01 at 00h 03m 30s.xml">
-      <configuration name="CounterAnimalTest" configurationId="JUnit" />
+    <history-entry file="RoosterTest - 2019.03.01 at 00h 40m 51s.xml">
+      <configuration name="RoosterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CounterAnimalTest - 2019.03.01 at 00h 06m 07s.xml">
-      <configuration name="CounterAnimalTest" configurationId="JUnit" />
+    <history-entry file="RoosterTest - 2019.03.01 at 00h 41m 33s.xml">
+      <configuration name="RoosterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CounterAnimalTest - 2019.03.01 at 00h 06m 32s.xml">
-      <configuration name="CounterAnimalTest" configurationId="JUnit" />
+    <history-entry file="RoosterTest - 2019.03.01 at 00h 42m 08s.xml">
+      <configuration name="RoosterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CounterAnimalTest - 2019.03.01 at 00h 07m 18s.xml">
-      <configuration name="CounterAnimalTest" configurationId="JUnit" />
+    <history-entry file="LanguageTest - 2019.03.01 at 00h 42m 17s.xml">
+      <configuration name="LanguageTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CounterAnimalTest - 2019.03.01 at 00h 08m 06s.xml">
-      <configuration name="CounterAnimalTest" configurationId="JUnit" />
+    <history-entry file="com_hunghoang_animals_in_animals - 2019.03.01 at 00h 44m 36s.xml">
+      <configuration name="com.hunghoang.animals in animals" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CounterAnimalTest - 2019.03.01 at 00h 09m 37s.xml">
-      <configuration name="CounterAnimalTest" configurationId="JUnit" />
+    <history-entry file="LanguageTest - 2019.03.01 at 00h 45m 05s.xml">
+      <configuration name="LanguageTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10290000" />
+    <option name="totallyTimeSpent" value="12346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="722" extended-state="6" />
@@ -650,27 +684,27 @@
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32890365" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" weight="0.32956383" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6694352" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32890365" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" weight="0.32890365" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31098545" />
       <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -685,41 +719,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hunghoang/animals/util/LiveContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding>
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/impl/sing/DogSound.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/impl/sing/CatSound.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hunghoang/animals/DogTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" selection-start-line="14" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/bird/Parrot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -729,27 +728,6 @@
             <element signature="e#134#135#0" expanded="true" />
             <element signature="e#157#158#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/impl/sing/RoosterSound.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="45" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hunghoang/animals/RoosterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hunghoang/animals/ParrotTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="36" column="44" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -836,13 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hunghoang/animals/ChickenTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="22" column="81" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="81" />
         </state>
       </provider>
     </entry>
@@ -984,17 +955,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hunghoang/animals/FishTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="32" selection-start-line="32" selection-end-line="33" />
-          <folding>
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/animal/Cat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1100,8 +1060,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/hunghoang/animals/CounterAnimalTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
+        <state relative-caret-position="207">
           <caret line="64" column="24" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hunghoang/animals/ParrotTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="37" column="31" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hunghoang/animals/ChickenTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="81" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/ActionSing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hunghoang/animals/FishTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="32" column="81" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="32" selection-end-column="81" />
+          <folding>
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/impl/sing/RoosterSound.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/lang_en.properties">
+      <provider editor-type-id="ResourceBundle" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/lang_fr.properties">
+      <provider editor-type-id="ResourceBundle" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hunghoang/animals/RoosterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="14" column="84" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hunghoang/animals/LanguageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1122,7 +1166,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1137,7 +1181,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.44827586" />
               </list>
             </option>
           </splitter-proportions>
@@ -1149,7 +1193,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.44827586" />
               </list>
             </option>
           </splitter-proportions>
@@ -1169,6 +1213,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>
