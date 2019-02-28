@@ -36,4 +36,8 @@ public abstract class Kind {
     public ActionFly getActionFly() {
         return actionFly;
     }
+
+    public ActionSwim getActionSwim() {
+        return actionSwim;
+    }
 }
