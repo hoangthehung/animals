@@ -2,38 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2a40626-2885-4990-a910-7a4d52ca04a4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/ActionEatFish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/ActionMakeJokes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/impl/sing/CanNotSing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/impl/walk/CanNotWalk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/fish/Clownfish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/fish/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/fish/Shark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/util/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/util/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hunghoang/animals/ClownfishTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hunghoang/animals/FishTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hunghoang/animals/SharkTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/impl/GoodSwim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/fish/Dolphins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hunghoang/animals/DolphinsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/AactionSing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/ActionSing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/AactionSwim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/ActionSwim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/impl/CanSwim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/impl/CanSwim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/impl/CanWalk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/impl/walk/CanWalk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/impl/sing/CanSing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/impl/sing/CanSing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/animal/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/bird/Bird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/Kind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/Kind.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/animal/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/animal/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/animal/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/animal/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/bird/Chicken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/bird/Chicken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/bird/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/bird/Duck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/bird/Parrot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/bird/Parrot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/bird/Rooster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/bird/Rooster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hunghoang/animals/AnimalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hunghoang/animals/AnimalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hunghoang/animals/BirdTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hunghoang/animals/BirdTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hunghoang/animals/DuckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hunghoang/animals/DuckTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,6 +33,33 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Dolphins.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/fish/Dolphins.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DolphinsTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/hunghoang/animals/DolphinsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodSwim.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/impl/GoodSwim.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Shark.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/fish/Shark.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,7 +73,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SharkTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SharkTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/hunghoang/animals/SharkTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
@@ -127,33 +126,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActionFly.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/ActionFly.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActionMakeJokes.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/ActionMakeJokes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActionEatFish.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/ActionEatFish.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -171,9 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/AnimalFly.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/impl/CanFly.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/hunghoang/animals/AbstractTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/hunghoang/animals/AnimalTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/impl/CanSing.java" />
@@ -222,6 +191,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/fish/Shark.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/hunghoang/animals/ClownfishTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/hunghoang/animals/SharkTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/impl/GoodSwim.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/fish/Dolphins.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hunghoang/animals/DolphinsTest.java" />
       </list>
     </option>
   </component>
@@ -253,7 +225,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="722" />
+    <option name="height" value="724" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -307,6 +279,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="animals" type="462c0819:PsiDirectoryNode" />
               <item name="action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="animals" type="b2602c69:ProjectViewProjectNode" />
+              <item name="animals" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="animals" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="animals" type="b2602c69:ProjectViewProjectNode" />
@@ -379,10 +361,10 @@
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.hunghoang.animals" />
+      <recent name="com.hunghoang.animals.action.impl" />
       <recent name="com.hunghoang.animals.models.fish" />
       <recent name="com.hunghoang.animals.util" />
       <recent name="com.hunghoang.animals.action.impl.walk" />
-      <recent name="com.hunghoang.animals.action.impl.sing" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -400,7 +382,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SharkTest">
+  <component name="RunManager" selected="JUnit.DolphinsTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -416,6 +398,29 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.hunghoang.animals" />
       <option name="MAIN_CLASS_NAME" value="com.hunghoang.animals.ClownfishTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="DolphinsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="animals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hunghoang.animals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.hunghoang.animals" />
+      <option name="MAIN_CLASS_NAME" value="com.hunghoang.animals.DolphinsTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -512,29 +517,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="com.hunghoang.animals in animals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="animals" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hunghoang.animals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.hunghoang.animals" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -558,19 +540,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.com.hunghoang.animals in animals" />
       <item itemvalue="JUnit.ParrotTest" />
       <item itemvalue="JUnit.FishTest" />
       <item itemvalue="JUnit.SharkTest" />
       <item itemvalue="JUnit.ClownfishTest" />
+      <item itemvalue="JUnit.DolphinsTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DolphinsTest" />
         <item itemvalue="JUnit.SharkTest" />
         <item itemvalue="JUnit.ClownfishTest" />
         <item itemvalue="JUnit.FishTest" />
         <item itemvalue="JUnit.ParrotTest" />
-        <item itemvalue="JUnit.com.hunghoang.animals in animals" />
       </list>
     </recent_temporary>
   </component>
@@ -584,14 +566,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551363560376</updated>
-      <workItem from="1551363564016" duration="7380000" />
+      <workItem from="1551363564016" duration="7655000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RoosterTest - 2019.02.28 at 22h 35m 56s.xml">
-      <configuration name="RoosterTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RoosterTest - 2019.02.28 at 22h 36m 14s.xml">
       <configuration name="RoosterTest" configurationId="JUnit" />
     </history-entry>
@@ -619,9 +598,12 @@
     <history-entry file="ClownfishTest - 2019.02.28 at 23h 22m 38s.xml">
       <configuration name="ClownfishTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SharkTest - 2019.02.28 at 23h 23m 36s.xml">
+      <configuration name="SharkTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7380000" />
+    <option name="totallyTimeSpent" value="7655000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="722" extended-state="6" />
@@ -636,9 +618,9 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" weight="0.32956383" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32890365" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32890365" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32890365" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32890365" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31098545" />
@@ -664,27 +646,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hunghoang/animals/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/ActionWalk.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/ActionSing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -976,19 +937,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/fish/Fish.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#687#688#0" expanded="true" />
-            <element signature="e#718#719#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/ActionFly.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1021,17 +969,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/fish/Shark.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-          <folding>
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1075,6 +1012,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="31" column="41" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/fish/Shark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+          <folding>
+            <element signature="e#602#603#0" expanded="true" />
+            <element signature="e#637#638#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/fish/Fish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hunghoang/animals/action/impl/GoodSwim.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hunghoang/animals/models/fish/Dolphins.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hunghoang/animals/DolphinsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="32" column="40" selection-start-line="32" selection-start-column="40" selection-end-line="32" selection-end-column="40" />
         </state>
       </provider>
     </entry>
