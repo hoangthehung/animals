@@ -24,4 +24,8 @@ public abstract class Kind {
     public void swim(){
         actionSwim.swim();
     }
+
+    public AactionSing getActionSing() {
+        return actionSing;
+    }
 }
