@@ -1,5 +1,5 @@
 package com.hunghoang.animals.action;
 
-public interface AnimalWalk {
+public interface ActionWalk {
     public void walk();
 }

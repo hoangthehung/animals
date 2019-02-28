@@ -1,23 +1,27 @@
 package com.hunghoang.animals.models;
 
-import com.hunghoang.animals.action.AnimalFly;
-import com.hunghoang.animals.action.AnimalSing;
-import com.hunghoang.animals.action.AnimalWalk;
+import com.hunghoang.animals.action.ActionFly;
+import com.hunghoang.animals.action.AactionSing;
+import com.hunghoang.animals.action.AactionSwim;
+import com.hunghoang.animals.action.ActionWalk;
 
 public abstract class Kind {
-    AnimalWalk animalWalk;
-    AnimalFly animalFly;
-    AnimalSing animalSing;
-
+    protected ActionWalk actionWalk;
+    protected ActionFly actionFly;
+    protected AactionSing actionSing;
+    protected AactionSwim actionSwim;
 
 
     public void fly(){
-        animalFly.fly();
+        actionFly.fly();
     }
     public void walk(){
-        animalWalk.walk();
+        actionWalk.walk();
     }
     public void sing() {
-        animalSing.sing();
+        actionSing.sing();
+    }
+    public void swim(){
+        actionSwim.swim();
     }
 }

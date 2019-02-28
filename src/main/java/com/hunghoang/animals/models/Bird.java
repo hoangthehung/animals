@@ -1,13 +1,15 @@
 package com.hunghoang.animals.models;
 
-import com.hunghoang.animals.action.impl.CanFly;
-import com.hunghoang.animals.action.impl.CanSing;
+import com.hunghoang.animals.action.impl.CanWalk;
+import com.hunghoang.animals.action.impl.fly.CanFly;
+import com.hunghoang.animals.action.impl.sing.CanSing;
 
-public class Bird extends Animal {
-    public Bird(){
+public class Bird extends Kind {
+    public Bird() {
         super();
-        this.animalFly = new CanFly();
-        this.animalSing = new CanSing();
+        this.actionWalk = new CanWalk();
+        this.actionFly = new CanFly();
+        this.actionSing = new CanSing();
     }
 
 }
