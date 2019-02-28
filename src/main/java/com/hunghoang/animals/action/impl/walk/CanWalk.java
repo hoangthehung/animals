@@ -1,4 +1,4 @@
-package com.hunghoang.animals.action.impl;
+package com.hunghoang.animals.action.impl.walk;
 
 import com.hunghoang.animals.action.ActionWalk;
 

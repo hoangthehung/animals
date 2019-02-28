@@ -1,6 +1,6 @@
 package com.hunghoang.animals;
 
-import com.hunghoang.animals.models.Bird;
+import com.hunghoang.animals.models.bird.Bird;
 
 public class Solution {
     public static void main(String[] args) {

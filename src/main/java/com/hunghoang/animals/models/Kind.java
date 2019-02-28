@@ -1,15 +1,15 @@
 package com.hunghoang.animals.models;
 
 import com.hunghoang.animals.action.ActionFly;
-import com.hunghoang.animals.action.AactionSing;
-import com.hunghoang.animals.action.AactionSwim;
+import com.hunghoang.animals.action.ActionSing;
+import com.hunghoang.animals.action.ActionSwim;
 import com.hunghoang.animals.action.ActionWalk;
 
 public abstract class Kind {
     protected ActionWalk actionWalk;
     protected ActionFly actionFly;
-    protected AactionSing actionSing;
-    protected AactionSwim actionSwim;
+    protected ActionSing actionSing;
+    protected ActionSwim actionSwim;
 
 
     public void fly(){
@@ -25,7 +25,7 @@ public abstract class Kind {
         actionSwim.swim();
     }
 
-    public AactionSing getActionSing() {
+    public ActionSing getActionSing() {
         return actionSing;
     }
 }

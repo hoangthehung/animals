@@ -1,5 +1,5 @@
 package com.hunghoang.animals.action;
 
-public interface AactionSing {
+public interface ActionSing {
     public void sing();
 }

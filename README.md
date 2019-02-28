@@ -12,3 +12,6 @@
 - Another way that we can create roaster inherit from bird and use chicken as attribute
 ### 4.
 - create LiveContext to make parrot can say depend on context living near what kind of animal
+## B. Model fish as well as other swimming animals
+### 1.
+- create fish inherit from kind and implement action for fish: CanNotSing, CanNotWalk, CanSwim

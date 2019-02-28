@@ -1,6 +1,5 @@
 package com.hunghoang.animals;
 
-import com.hunghoang.animals.models.Bird;
 import com.hunghoang.animals.models.bird.Duck;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

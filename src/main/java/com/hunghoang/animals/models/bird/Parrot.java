@@ -1,6 +1,5 @@
 package com.hunghoang.animals.models.bird;
 
-import com.hunghoang.animals.models.Bird;
 import com.hunghoang.animals.util.LiveContext;
 
 public class Parrot extends Bird {
